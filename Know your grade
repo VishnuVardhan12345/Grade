@@ -1,0 +1,28 @@
+#include<stdio.h>
+main()
+{
+	char grade="f";
+	int i=0;
+	printf("Enter your marks: ");
+	scanf("%d",&i);
+	if(i>85)
+	{
+		grade='A';
+	}
+	else if(i>=70)      
+	{
+		grade='B';
+	}
+	else if(i>=55)
+	{
+		grade='C';
+	}
+	else if(i>=40)
+	{
+		grade='D';
+	}
+	else
+	grade='F';
+	
+	printf("\nThe grade alloted is : %c",grade);
+}
